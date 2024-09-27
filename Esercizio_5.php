@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    $num = 5;
+    $num = rand(0,100);
     if ($num % 2 == 0) {
         echo "<p>Il numero $num è pari</p>";
     }else{
